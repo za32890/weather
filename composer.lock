@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "cc641c84d9310bb20fed1ec3efb3e9b9",
+    "content-hash": "1445a0f015535ea579df7dd380b5f47a",
     "packages": [
         {
             "name": "doctrine/cache",
@@ -3380,16 +3380,16 @@
         },
         {
             "name": "symfony/form",
-            "version": "v6.3.6",
+            "version": "v6.3.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/form.git",
-                "reference": "6af3c25eda0f2a028aeab7d81c2597dfedecd96a"
+                "reference": "b7a8098163cce87c0b6ce05d0f361dc12d5a2788"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/form/zipball/6af3c25eda0f2a028aeab7d81c2597dfedecd96a",
-                "reference": "6af3c25eda0f2a028aeab7d81c2597dfedecd96a",
+                "url": "https://api.github.com/repos/symfony/form/zipball/b7a8098163cce87c0b6ce05d0f361dc12d5a2788",
+                "reference": "b7a8098163cce87c0b6ce05d0f361dc12d5a2788",
                 "shasum": ""
             },
             "require": {
@@ -3457,7 +3457,7 @@
             "description": "Allows to easily create, process and reuse HTML forms",
             "homepage": "https://symfony.com",
             "support": {
-                "source": "https://github.com/symfony/form/tree/v6.3.6"
+                "source": "https://github.com/symfony/form/tree/v6.3.8"
             },
             "funding": [
                 {
@@ -3473,7 +3473,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2023-10-17T11:32:53+00:00"
+            "time": "2023-11-06T10:58:05+00:00"
         },
         {
             "name": "symfony/framework-bundle",
@@ -6617,16 +6617,16 @@
         },
         {
             "name": "symfony/validator",
-            "version": "v6.3.6",
+            "version": "v6.3.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/validator.git",
-                "reference": "254290aa13d591883eb36327cbe80689cee38ffb"
+                "reference": "f75b40e088d095db1e788b81605a76f4563cb80e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/validator/zipball/254290aa13d591883eb36327cbe80689cee38ffb",
-                "reference": "254290aa13d591883eb36327cbe80689cee38ffb",
+                "url": "https://api.github.com/repos/symfony/validator/zipball/f75b40e088d095db1e788b81605a76f4563cb80e",
+                "reference": "f75b40e088d095db1e788b81605a76f4563cb80e",
                 "shasum": ""
             },
             "require": {
@@ -6693,7 +6693,7 @@
             "description": "Provides tools to validate values",
             "homepage": "https://symfony.com",
             "support": {
-                "source": "https://github.com/symfony/validator/tree/v6.3.6"
+                "source": "https://github.com/symfony/validator/tree/v6.3.8"
             },
             "funding": [
                 {
@@ -6709,7 +6709,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2023-10-20T16:20:17+00:00"
+            "time": "2023-11-07T10:17:15+00:00"
         },
         {
             "name": "symfony/var-dumper",
@@ -7023,6 +7023,62 @@
                 }
             ],
             "time": "2023-07-31T07:08:24+00:00"
+        },
+        {
+            "name": "twbs/bootstrap",
+            "version": "v5.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/twbs/bootstrap.git",
+                "reference": "bf0936748602c8109fd916c64b4560799fa1c3f8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/twbs/bootstrap/zipball/bf0936748602c8109fd916c64b4560799fa1c3f8",
+                "reference": "bf0936748602c8109fd916c64b4560799fa1c3f8",
+                "shasum": ""
+            },
+            "replace": {
+                "twitter/bootstrap": "self.version"
+            },
+            "type": "library",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Mark Otto",
+                    "email": "markdotto@gmail.com"
+                },
+                {
+                    "name": "Jacob Thornton",
+                    "email": "jacobthornton@gmail.com"
+                }
+            ],
+            "description": "The most popular front-end framework for developing responsive, mobile first projects on the web.",
+            "homepage": "https://getbootstrap.com/",
+            "keywords": [
+                "JS",
+                "css",
+                "framework",
+                "front-end",
+                "mobile-first",
+                "responsive",
+                "sass",
+                "web"
+            ],
+            "support": {
+                "issues": "https://github.com/twbs/bootstrap/issues",
+                "source": "https://github.com/twbs/bootstrap/tree/v5.0.0"
+            },
+            "funding": [
+                {
+                    "url": "https://opencollective.com/bootstrap",
+                    "type": "open_collective"
+                }
+            ],
+            "time": "2021-05-05T19:32:12+00:00"
         },
         {
             "name": "twig/extra-bundle",
